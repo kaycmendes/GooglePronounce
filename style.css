@@ -10,13 +10,13 @@ body {
     font-family: 'Varela Round', sans-serif;
     color: rgb(65, 65, 65);
     line-height: 1.6em;
-    font-size: 1.1em;
+    font-size: 1.2em;
     width: 100%;
     background-color: #282828;
 }
 .box-container:after {
   visibility: hidden;
-  display: block;
+  display: flex;
   content: "";
   clear: both;
   height: 0;
@@ -27,12 +27,12 @@ body {
     margin: 0px auto;
     background-color: #282828;
     width: 100%;
+    display: flex;
 }
 
 .box-container {
-    margin: auto;
     padding: 217px;
-    width: 800px;
+    width: 120vh;
     margin: 0 auto;
     display: block
 }
@@ -40,9 +40,9 @@ body {
 .box {
     margin: auto;
     width: 50%;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     display: flex;
 }
 
@@ -77,9 +77,6 @@ button{
 h1{
     display: block;
     text-align: center;
-    padding-left: 100px;
-    padding-bottom: 10px;
-    
 }
 
 .title{
