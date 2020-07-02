@@ -34,12 +34,11 @@ body {
     padding: 217px;
     width: 120vh;
     margin: 0 auto;
-    display: block
+    display: flex;
 }
 
 .box {
     margin: auto;
-    width: 50%;
     padding: 20px;
     text-align: center;
     font-size: 4em;
@@ -81,4 +80,6 @@ h1{
 
 .title{
     padding: 10px;
+    font-size: 3em;
+    line-height: 104px;
 }
